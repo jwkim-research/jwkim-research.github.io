@@ -31,8 +31,8 @@ redirect_from:
       Patent Application No: 10-2025-0212331
 
 * Sep 2025 -- Mar 2026: **Research Assistant**
-  * School of Business, Ewha Womans University
-  * Advisor: Prof. Daiki Min
+  *School of Business, Ewha Womans University*
+  Advisor: Prof. Daiki Min
 
   * Kim, J. & Min, D.  
     *Assessing the Validity of Prompting Large Language Models for Vehicle Routing Problems*  
