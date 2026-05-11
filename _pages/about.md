@@ -11,6 +11,8 @@ I received my B.B.A. in Business Administration and B.S. in Statistics from Ewha
 
 My research interests lie in combinatorial optimization, sequential decision making, and reinforcement learning for logistics and supply chain systems. I am particularly interested in optimization under uncertainty and AI-driven decision systems.
 
+[Download CV](/files/CV_JiwonKim.pdf){: .btn .btn--primary}
+
 ---
 
 # Research Interests
