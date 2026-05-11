@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Jiwon Kim"
+title: "About"
 permalink: /
 author_profile: true
 ---
