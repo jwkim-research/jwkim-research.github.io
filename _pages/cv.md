@@ -21,6 +21,7 @@ redirect_from:
   Advisor: Prof. Yuncheol Kang
 
   * **Two-Stage Matheuristic for Transportation Volume Reallocation**
+  (Co-advised by Prof. Seokgi Lee, Youngstown State University)
     * Formulating combinatorial optimization problems as Markov Decision Processes (MDP)
     * Implementing Monte Carlo Tree Search (MCTS) in Python
     * Developing optimization frameworks integrating MILP and tree search
