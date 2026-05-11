@@ -47,12 +47,10 @@ redirect_from:
 * Logistics & Supply Chain Management
 
 ### Technical Skills
-======
 * **Programming Languages:** Python, R
 * **Optimization & ML Tools:** Gurobi, OR-Tools, PyVRP, PyTorch
 
 ### Relevant Coursework
-======
 * Optimization Theory
 * Sequential Decision Making
 * Bayesian Statistics
