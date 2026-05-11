@@ -1,11 +1,9 @@
 ---
 layout: archive
-title: "About"
+title: "Jiwon Kim"
 permalink: /
 author_profile: true
 ---
-
-# Jiwon Kim
 
 I am an M.A. student in Business Administration (Management Decision Science) at Ewha Womans University.
 
