@@ -143,3 +143,14 @@ body,.masthead,.greedy-nav{background:#fff}
  .research-page>p{font-size:16px;line-height:1.75}
  .research-expanded summary{min-height:44px;display:list-item;padding:.5rem 0}
 }
+
+/* Match the research project accents to the About research fellowship. */
+.research-primary{background:#fffaf0;border-top:3px solid #f5bd27;border-radius:0 0 4px 4px;padding:1.25rem;margin:.75rem 0 1.7rem}
+.research-primary .research-highlights{background:#fff4cc;border-left-color:#f5bd27}
+.research-primary .research-short-perspective strong{box-shadow:inset 0 -.35em #ffe7a0}
+.research-primary .research-reflection{border-left-color:#f5bd27}
+.research-expanded summary{color:#796014;text-decoration-color:#e5bd45}
+.research-takeaway{border-left-color:#f5bd27}
+.research-page>h2:nth-of-type(n+2){border-bottom:1px solid #f3df9f;padding-bottom:.45rem}
+.phd-plan{margin-top:1.6rem}
+@media(max-width:650px){.research-primary{padding:1rem}}
