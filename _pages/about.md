@@ -5,6 +5,7 @@ permalink: /
 author_profile: true
 ---
 
+<div class="about-page">
 <p>I am a master’s student in Business Administration (Management Decision Science) at Ewha Womans University, advised by Prof. Yuncheol Kang in the <a href="https://bigdataewha.github.io/ko/index.html" target="_blank" rel="noopener">AI Applications Lab (AAPL)</a>. I expect to graduate in August 2027.</p>
 
 <section class="academic-grant" aria-labelledby="grant-title">
@@ -13,6 +14,8 @@ author_profile: true
  <p>Master’s Student Research Fellowship, National Research Foundation of Korea (NRF)<br>Sep 2026–Aug 2027</p>
  <a href="{{ '/research/' | relative_url }}">Research details →</a>
 </section>
+
+<p class="academic-more">My work also includes a published study on LLM-based vehicle routing and a working paper on human response simulation. For my research interests and projects, see <a href="{{ '/research/' | relative_url }}">Research</a>. My curriculum vitae is available <a href="{{ '/cv/' | relative_url }}">here</a>.</p>
 
 
 
@@ -24,6 +27,7 @@ author_profile: true
 
 
 
-<p class="academic-more">My work also includes a published study on LLM-based vehicle routing and a working paper on human response simulation. For my research interests and projects, see <a href="{{ '/research/' | relative_url }}">Research</a>. My curriculum vitae is available <a href="{{ '/cv/' | relative_url }}">here</a>.</p>
+
 
 <p class="phd-plan">I am applying to PhD programs in Operations Management for <strong>Fall 2027</strong>.</p>
+</div>

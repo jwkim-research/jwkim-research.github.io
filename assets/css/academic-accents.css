@@ -154,3 +154,26 @@ body,.masthead,.greedy-nav{background:#fff}
 .research-page>h2:nth-of-type(n+2){border-bottom:1px solid #f3df9f;padding-bottom:.45rem}
 .phd-plan{margin-top:1.6rem}
 @media(max-width:650px){.research-primary{padding:1rem}}
+
+/* Small finishing adjustments. */
+.greedy-nav .visible-links .masthead__menu-item.selected>a{border-bottom-color:#f47716}
+.greedy-nav .visible-links a::before{background:#a1c931}
+.greedy-nav .visible-links .masthead__menu-item.selected>a::before{background:#f47716}
+.archive a.cv-action{background:#fff;border-color:#f47b20;color:#c65300}
+.archive a.cv-action:hover{background:#fff5eb;border-color:#ed6b0b;color:#b14b00}
+.archive a.cv-action-primary{background:#f47b20;border-color:#f47b20;color:#fff}
+.archive a.cv-action-primary:hover{background:#e66a0d;border-color:#e66a0d;color:#fff}
+.research-page .research-reflection{width:auto;max-width:none}
+.research-page .research-reflection p{max-width:none}
+body:has(.about-page){margin-bottom:0!important}
+body:has(.about-page) .page__footer{margin-top:16px}
+body:has(.about-page) .page__footer footer{margin-top:10px;padding-bottom:12px}
+.archive:has(>.about-page){margin-bottom:0}
+.about-page>.phd-plan:last-child{margin-bottom:0}
+@media(min-width:1024px) and (min-height:800px){
+ body:has(.about-page) #main{margin-top:24px}
+ .about-page .academic-grant{margin-top:1.35rem;margin-bottom:1.1rem}
+ .about-page .academic-more{margin-bottom:1.1rem}
+ .about-page .interest-tags{margin-top:1rem;margin-bottom:1.2rem}
+ .about-page .phd-plan{margin-top:1rem}
+}
