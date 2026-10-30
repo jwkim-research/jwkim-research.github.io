@@ -9,6 +9,8 @@ author_profile: true
 
 <p>My research interests lie in analytical operations management, stochastic modeling, and sequential decision-making. I am interested in understanding the structure of operational problems and developing models to support better decisions.</p>
 
+<div class="interest-tags" aria-label="Research interests"><span>Analytical OM</span><span>Stochastic Modeling</span><span>Sequential Decisions</span></div>
+
 <p>I received my B.B.A. in Business Administration and B.S. in Statistics from Ewha Womans University. I also spent a semester as an exchange student at Bern University of Applied Sciences in Switzerland.</p>
 
 <section class="academic-grant" aria-labelledby="grant-title">
