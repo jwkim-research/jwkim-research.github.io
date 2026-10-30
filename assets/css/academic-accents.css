@@ -61,3 +61,19 @@ body,.masthead,.greedy-nav{background:#fff}
  .research-project dd{margin-bottom:.7rem}
  .academic-grant{padding:1rem}
 }
+
+/* Research content hierarchy; preserve the AcademicPages shell. */
+.research-focus-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem}
+.research-focus-grid .research-panel h3{font-size:.78em}
+.research-focus-grid .research-panel ul{font-size:.8em;line-height:1.8}
+.research-primary{border-top:0;padding-top:.35rem}
+.research-record{margin:.9rem 0 1.4rem;padding-left:1rem;font-size:.75em;line-height:1.8;color:#555d51}
+.research-record li{margin-bottom:.35rem}
+.research-reflection{margin:1.5rem 0 0;padding:.2rem 0 .2rem 1rem;border-left:2px solid #a4c425}
+.research-reflection h4{font-size:.78em;font-weight:600;margin:0 0 .6rem}
+.research-reflection p{font-size:.85em;line-height:1.85;margin:0}
+.research-connections{font-size:.85em;color:#60665f}
+.research-secondary>p:not(.research-meta):not(.jw-paper-links):not(.research-paper-title){font-size:.85em;line-height:1.85}
+.research-secondary>p:last-child{margin-bottom:0}
+.research-paper-title{font-size:.8em;font-style:italic;line-height:1.7}
+@media(max-width:850px){.research-focus-grid{grid-template-columns:1fr}}
