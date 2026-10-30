@@ -35,7 +35,7 @@ author_profile: true
 
 <article id="transportation" class="research-project research-primary">
   <h3>Transportation Volume Reallocation in Automotive Supply Chains</h3>
-  <p class="research-meta">Working manuscript with Seokgi Lee and Yuncheol Kang</p>
+  <p class="research-meta">Research in progress with Seokgi Lee and Yuncheol Kang</p>
   <ul class="research-record">
     <li><strong>Principal Investigator:</strong> NRF Master’s Student Research Fellowship, Sep 2026–Aug 2027</li>
     <li><strong>Scheduled presentation:</strong> INFORMS Annual Meeting, November 4, 2026, San Francisco</li>
