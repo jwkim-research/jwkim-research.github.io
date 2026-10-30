@@ -13,7 +13,7 @@ author_profile: true
 <div class="research-grid research-focus-grid">
   <section class="research-panel">
     <h3>Research Focus</h3>
-    <ul><li>Sequential decision-making</li><li>Operational system dynamics</li><li>Decision-making under uncertainty</li></ul>
+    <ul><li>Sequential decision-making</li><li>Combinatorial optimization</li><li>Decision-making under uncertainty</li></ul>
   </section>
   <section class="research-panel">
     <h3>Methodological Interests</h3>
