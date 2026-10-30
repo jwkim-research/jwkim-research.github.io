@@ -5,6 +5,7 @@ permalink: /research/
 author_profile: true
 ---
 
+<div class="research-page">
 <p>My research interests lie in analytical operations management, particularly stochastic modeling and sequential decision-making. I am interested in how operational systems evolve over time and how decisions interact with uncertainty and changing system states.</p>
 
 <p>My work so far has focused on combinatorial optimization and the evaluation of LLM-based decisions and human response simulation. Through these projects, I have become increasingly interested in mathematical modeling: how a problem can be represented from different perspectives, and how the choice of representation affects the decisions we can study.</p>
@@ -68,3 +69,4 @@ author_profile: true
 <h2>Future Research Interests</h2>
 <p>I would like to study operational systems in which decisions affect future system states and must adapt to uncertain demand and changing conditions. Building on my experience in optimization and human response simulation, I hope to explore these problems through stochastic modeling, Markov decision processes, and simulation-based approaches.</p>
 <p>I am particularly interested in inventory management, dynamic pricing, and retail operations. More broadly, I hope to understand how the structure of a system shapes effective decision policies, as well as which policies perform well.</p>
+</div>

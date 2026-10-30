@@ -7,7 +7,7 @@ author_profile: true
 
 <p>I am a master’s student in Business Administration (Management Decision Science) at Ewha Womans University, advised by Prof. Yuncheol Kang in the <a href="https://bigdataewha.github.io/ko/index.html" target="_blank" rel="noopener">AI Applications Lab (AAPL)</a>. I expect to graduate in August 2027.</p>
 
-<p>My research interests lie in analytical operations management, stochastic modeling, and sequential decision-making. I am interested in understanding the structure of operational problems and developing models to support better decisions.</p>
+<p>My research experience spans combinatorial optimization, matheuristics, and LLM-based human response simulation. Within analytical operations management, I am particularly interested in stochastic modeling and sequential decision-making, and in how mathematical models can support decisions as operational systems evolve over time.</p>
 
 <div class="interest-tags" aria-label="Research interests"><span>Analytical OM</span><span>Combinatorial Optimization</span><span>Stochastic Modeling</span></div>
 
@@ -20,4 +20,4 @@ author_profile: true
  <a href="{{ '/research/' | relative_url }}">Research details →</a>
 </section>
 
-<p class="academic-more">For my research interests and projects, see <a href="{{ '/research/' | relative_url }}">Research</a>. My curriculum vitae is available <a href="{{ '/cv/' | relative_url }}">here</a>.</p>
+<p class="academic-more">My work also includes a published study on LLM-based vehicle routing and a working paper on human response simulation. For my research interests and projects, see <a href="{{ '/research/' | relative_url }}">Research</a>. My curriculum vitae is available <a href="{{ '/cv/' | relative_url }}">here</a>.</p>
