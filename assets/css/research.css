@@ -1,0 +1,39 @@
+/* Keep the short primary navigation visible at every viewport width. */
+#site-nav .visible-links { display:flex; flex-wrap:wrap; align-items:center; width:100%; gap:0 .25rem; }
+#site-nav .visible-links > li { display:block; flex:none; }
+#site-nav .visible-links > li:first-child { margin-right:auto; }
+#site-nav .visible-links a { margin:0 .7rem; }
+#site-nav .visible-links > li:first-child a { margin-left:0; }
+#site-nav > button { display:none !important; }
+@media (max-width:480px) {
+  #site-nav .visible-links > li:first-child { flex-basis:100%; }
+  #site-nav .visible-links a { margin:0 .65rem; }
+  #site-nav .visible-links > li:nth-child(2) a { margin-left:0; }
+  #site-nav .visible-links #theme-toggle { margin-left:auto; }
+}
+.research-overview { border-left:3px solid var(--global-link-color); padding: .25rem 0 .25rem 1.2rem; margin:1.5rem 0 2rem; }
+.research-overview h2 { margin-top:0; border:0; }
+.research-overview p:last-child { margin-bottom:0; }
+.research-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin:1rem 0 2rem; }
+.research-panel, .research-project { border:1px solid var(--global-border-color); border-radius:6px; padding:1.2rem; }
+.research-panel h3 { margin:0 0 .7rem; }
+.research-panel ul { padding-left:1.1rem; margin:0; }
+.research-panel li { margin-bottom:.35rem; }
+.research-path { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:.8rem; margin:1rem 0 2rem; }
+.research-path > div { border-top:2px solid var(--global-border-color); padding-top:.8rem; }
+.research-path strong, .research-path span { display:block; }
+.research-path span { font-size:.85em; margin-top:.4rem; }
+.research-project { margin:1.2rem 0; }
+.research-project h3 { margin:0 0 .5rem; }
+.research-meta { font-size:.8em; color:var(--global-text-color-light); margin-bottom:1rem; }
+.research-project dl { display:grid; grid-template-columns:7rem minmax(0,1fr); gap:.65rem 1rem; margin:0; }
+.research-project dt { font-size:.85em; font-weight:700; }
+.research-project dd { margin:0; font-size:.9em; }
+.research-project details { margin-top:1rem; font-size:.85em; }
+.research-project summary { cursor:pointer; font-weight:600; }
+.research-project details p { margin:.7rem 0 0; }
+@media (max-width:650px) {
+  .research-grid, .research-path { grid-template-columns:1fr; }
+  .research-project dl { grid-template-columns:1fr; gap:.3rem; }
+  .research-project dd { margin-bottom:.7rem; }
+}
