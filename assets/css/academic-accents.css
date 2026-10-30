@@ -177,3 +177,16 @@ body:has(.about-page) .page__footer footer{margin-top:10px;padding-bottom:12px}
  .about-page .interest-tags{margin-top:1rem;margin-bottom:1.2rem}
  .about-page .phd-plan{margin-top:1rem}
 }
+
+/* The three primary links remain visible, with no overflow dropdown. */
+#primary-nav{min-width:0;width:100%}
+#primary-nav .visible-links{display:flex;align-items:center;flex-wrap:wrap;gap:0 1.7rem;margin:0;padding:0;list-style:none}
+#primary-nav .visible-links>li{display:block;flex:0 0 auto}
+#primary-nav .visible-links a{margin:0;white-space:nowrap}
+@media(max-width:600px){
+ .masthead__inner-wrap{padding-top:.35rem;padding-bottom:.35rem}
+ #primary-nav .visible-links{display:grid;grid-template-columns:repeat(3,max-content);column-gap:1.6rem;row-gap:0;justify-content:start}
+ #primary-nav .visible-links>li:first-child{grid-column:1/-1}
+ #primary-nav .visible-links a{padding:.4rem 0;font-size:15px;line-height:1.5}
+ #primary-nav .visible-links>li:first-child a{font-size:18px;width:fit-content}
+}
