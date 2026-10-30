@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+{% include head.html %}
+<link rel="stylesheet" href="{{ '/assets/css/jiwon.css' | relative_url }}?v=20261031">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="jw-site">
+<a class="skip-link" href="#content">Skip to content</a>
+<aside class="jw-sidebar">
+  <a class="jw-identity" href="{{ '/' | relative_url }}">
+    <img src="{{ '/images/profile.png' | relative_url }}" alt="Jiwon Kim" width="136" height="152">
+    <span class="jw-name">Jiwon Kim<span class="name-dot" aria-hidden="true">.</span></span>
+  </a>
+  <p class="jw-role">Master’s Student<br>Management Decision Science</p>
+  <p class="jw-school">Ewha Womans University</p>
+  <nav aria-label="Main navigation" class="jw-nav">
+  {% for link in site.data.navigation.main %}
+    <a href="{{ link.url | relative_url }}"{% if page.url == link.url %} aria-current="page"{% endif %}>{{ link.title }}<span aria-hidden="true">↗</span></a>
+  {% endfor %}
+  </nav>
+  <div class="jw-contact">
+    <a href="https://bigdataewha.github.io/ko/index.html" target="_blank" rel="noopener">AI Applications Lab ↗</a>
+    <a href="mailto:kim.jiwon@ewha.ac.kr">kim.jiwon@ewha.ac.kr</a>
+    <div class="jw-social"><a href="https://www.linkedin.com/in/jiwon-kim-jwkim" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://instagram.com/one_2730" target="_blank" rel="noopener">Instagram ↗</a></div>
+  </div>
+  <div class="jw-colorbar" aria-hidden="true"><i></i><i></i><i></i></div>
+</aside>
+<main id="content" class="jw-main">
+  <header class="jw-page-header"><span>Jiwon Kim / {{ page.title }}</span><span class="jw-location">Seoul, South Korea</span></header>
+  <div class="jw-content{% if page.url == '/cv/' %} jw-cv{% endif %}">
+  {% unless page.url == '/' %}<h1>{{ page.title }}</h1>{% endunless %}
+  {{ content }}
+  </div>
+  <footer class="jw-footer">© {{ site.time | date: '%Y' }} Jiwon Kim <span>Curious about decisions.</span></footer>
+</main>
+</body>
+</html>

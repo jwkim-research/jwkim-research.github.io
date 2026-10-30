@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: profile
 title: "Research"
 permalink: /research/
 author_profile: true
@@ -58,6 +58,7 @@ author_profile: true
 <article class="research-project">
   <h3>Prompt-Based Vehicle Routing with Large Language Models</h3>
   <p class="research-meta">Published · With Daiki Min · Korean Management Science Review, 43(2), 29–47 (2026)</p>
+  <p class="jw-paper-links"><a href="https://doi.org/10.7737/KMSR.2026.43.2.029" target="_blank" rel="noopener">DOI / Journal article ↗</a></p>
   <dl>
     <dt>Question</dt><dd>Can prompting LLMs produce useful routes for vehicle routing problems with capacity and time-window constraints?</dd>
     <dt>My Contribution</dt><dd>I developed and implemented prompting approaches and conducted experiments evaluating feasibility, objective values, and route structure.</dd>
@@ -68,6 +69,7 @@ author_profile: true
 <article class="research-project">
   <h3>LLM-Based Human Response Simulation</h3>
   <p class="research-meta">Working paper · With J. Moon, Y. Lah, H. Jin, Y. Han, and Y. Kang</p>
+  <p class="jw-paper-links"><a href="https://arxiv.org/abs/2606.09013" target="_blank" rel="noopener">arXiv ↗</a></p>
   <dl>
     <dt>Question</dt><dd>What are the capabilities and limitations of LLM-based human response simulation?</dd>
     <dt>My Contribution</dt><dd>I contributed to experimental execution, persona and prompt design, and the interpretation and synthesis of results.</dd>
