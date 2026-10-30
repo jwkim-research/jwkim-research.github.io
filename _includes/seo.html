@@ -143,5 +143,19 @@
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+{% elsif site.og_image %}
+  <meta property="og:image" content="{{ site.og_image | prepend: '/images/' | absolute_url }}">
+  <meta property="og:image:secure_url" content="{{ site.og_image | prepend: '/images/' | absolute_url }}">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1424">
+  <meta property="og:image:height" content="752">
+  <meta property="og:image:alt" content="Jiwon Kim — orange, lime, and yellow illustrated animals on a white background">
 {% endif %}
+{% unless site.twitter.username %}
+  {% if site.og_image %}
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ site.og_image | prepend: '/images/' | absolute_url }}">
+  <meta name="twitter:image:alt" content="Jiwon Kim — illustrated academic website sharing image">
+  {% endif %}
+{% endunless %}
 <!-- end Open Graph protocol -->
