@@ -7,6 +7,8 @@ author_profile: true
 
 <p>I am a master’s student in Business Administration (Management Decision Science) at Ewha Womans University, advised by Prof. Yuncheol Kang in the <a href="https://bigdataewha.github.io/ko/index.html" target="_blank" rel="noopener">AI Applications Lab (AAPL)</a>. I expect to graduate in August 2027.</p>
 
+<p class="phd-plan">I am applying to PhD programs in Operations Management for <strong>Fall 2027</strong>.</p>
+
 <p>My research experience spans combinatorial optimization, matheuristics, and LLM-based human response simulation. Within analytical operations management, I am particularly interested in stochastic modeling and sequential decision-making, and in how mathematical models can support decisions as operational systems evolve over time.</p>
 
 <div class="interest-tags" aria-label="Research interests"><span>Analytical OM</span><span>Combinatorial Optimization</span><span>Stochastic Modeling</span></div>
