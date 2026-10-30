@@ -12,8 +12,8 @@ author_profile: true
 
 <nav class="research-quick-links" aria-label="Research projects">
  <a href="#transportation">Transportation reallocation</a>
+ <a href="#human-responses">Synthetic persona simulation</a>
  <a href="#routing">LLM vehicle routing</a>
- <a href="#human-responses">Human response simulation</a>
 </nav>
 <h2>Research Interests</h2>
 <div class="research-grid research-focus-grid">
@@ -59,8 +59,23 @@ author_profile: true
   </details>
 </article>
 
-<h2>Other Research</h2>
-<p class="research-connections">These projects provided complementary experience in evaluating AI-generated operational decisions and studying the fidelity of simulated human responses.</p>
+<article id="human-responses" class="research-project research-secondary">
+  <h3>LLM-Based Synthetic Persona Simulation</h3>
+  <p class="research-meta">Ongoing research project · AI Applications Lab (AAPL)</p>
+  <p>This project develops an <strong>LLM-based simulator using synthetic personas</strong> to model human responses and behavior. My contributions include persona and prompt design, experimental execution, and the interpretation and synthesis of results.</p>
+  <p class="research-takeaway">The project connects my experience in behavioral simulation with my longer-term interest in operational decision-making.</p>
+  <h4>Working Paper from This Project</h4>
+  <p class="research-paper-title">“Beyond Averages: Evaluating LLMs on Human Survey Replication at the Distributional Level”</p>
+  <p class="research-meta">With J. Moon, Y. Lah, H. Jin, Y. Han, and Y. Kang</p>
+  <p class="jw-paper-links"><a href="https://arxiv.org/abs/2606.09013" target="_blank" rel="noopener">arXiv</a></p>
+  <p class="research-takeaway"><strong>An initial study evaluates whether simulated survey responses reproduce human response distributions beyond average-level agreement.</strong></p>
+  <details class="research-expanded"><summary>Study and my contribution</summary>
+  <p>This working paper evaluates one application of the broader simulator project: replicating human survey response distributions. I contributed to experimental execution, persona and prompt design, and the interpretation and synthesis of results across experimental conditions.</p>
+  <p>This experience broadened my interest from selecting operational actions to modeling the human responses those actions may elicit.</p>
+  </details>
+</article>
+
+<h2>Published Research</h2>
 
 <article id="routing" class="research-project research-secondary">
   <h3>Prompt-Based Vehicle Routing with Large Language Models</h3>
@@ -73,17 +88,7 @@ author_profile: true
   </details>
 </article>
 
-<article id="human-responses" class="research-project research-secondary">
-  <h3>LLM-Based Human Response Simulation</h3>
-  <p class="research-meta">Working paper with J. Moon, Y. Lah, H. Jin, Y. Han, and Y. Kang</p>
-  <p class="research-paper-title">“Beyond Averages: Evaluating LLMs on Human Survey Replication at the Distributional Level”</p>
-  <p class="jw-paper-links"><a href="https://arxiv.org/abs/2606.09013" target="_blank" rel="noopener">arXiv</a></p>
-  <p class="research-takeaway"><strong>Evaluating human response simulation beyond average-level agreement.</strong></p>
-  <details class="research-expanded"><summary>Study and my contribution</summary>
-  <p>This project examines the extent to which LLMs reproduce the distribution of human survey responses beyond agreement at the average level. I contributed to experimental execution, persona and prompt design, and the interpretation and synthesis of results.</p>
-  <p>This experience broadened my interest from selecting operational actions to modeling the human responses those actions may elicit. It motivates my longer-term interest in connecting behavioral simulation with operational decisions.</p>
-  </details>
-</article>
+
 
 <h2>Future Research Interests</h2>
 <p>I would like to study operational systems in which decisions affect future system states and must adapt to uncertain demand and changing conditions. Building on my experience in optimization and human response simulation, I hope to explore these problems through stochastic modeling, Markov decision processes, and simulation-based approaches.</p>
